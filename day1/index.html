@@ -7,9 +7,68 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>첫번째 프로젝트</h1>
-    <h2>추가 추가 추가</h2>
-    <h3>Netlify로 주소 받은 후 다시 수정</h3>
-    <p>오예!!</p>
+    <h1>자기소개서</h1>
+    <div>
+      <p>안녕하세요. 제 이름은 심현정입니다. </p>
+      <p>코딩 언니의 목표대로 즐겁게 공부해 보겠습니다. </p>
+      <p>감사합니다!</p>
+      <a href="https://organic-zenobia-2c7.notion.site/day1_HTML-23ff2ee04bf880649271d4c7eccee8a1">day1 기록</a>
+    </div>
+
+    <h2>좋아하는 음식</h2>
+    <ul>
+      <li>
+        과일
+      </li>
+      <li>
+        치킨
+      </li>
+      <li>
+        울 엄마가 해준 음식
+      </li>
+    </ul>
+
+    <h2>좋아하는 가수</h2>
+    <a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ssc=tab.nx.all&query=%EC%9C%A4%ED%95%98&oquery=%EC%9C%A0%ED%8A%9C%EB%B8%8C+%EC%98%81%EC%83%81+audio+%ED%83%9C%EA%B7%B8+%EC%82%AC%EC%9A%A9&tqi=j4BdFsqpsECssTfgsD0ssssstBN-330453&ackey=as8f1w3m">
+      <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAxMTJfMTcy%2FMDAxNzA1MDQxNTk2MDcw.lzkKjaG4PURqyoecvHqZD04RkpSATFS2YhJwAopbCYcg.I_m1PLqZYd6WVK631wOJ2TIji2zI1Y5DS84w1ladpBUg.JPEG.kate2875%2F1705041589303.jpg&type=sc960_832" width="300">
+    </a>
+
+    <h2>좋아하는 노래</h2>
+    <div>
+      <p>가지고 있는 음원을 사용했습니다.</p>
+      <audio controls="controls">
+        <source src="/day1/Fahrenhaidt - In The Beginning.mp3">
+    </div>
+
+    <h2>인적사항</h2>
+    <table border="1", width="300px">
+      <tr>
+        <th>질문</th>
+        <th>답변</th>
+      </tr>
+      <tr>
+        <th>사는 곳</th>
+        <th>강동구</th>
+      </tr>
+      <tr>
+        <th>나이</th>
+        <th>35살</th>
+      </tr>
+    </table>
+
+    <h2>응원 한마디</h2>
+    <input type="text" id="userInput" placeholder="내용을 입력하세요" height="5px"/>
+    <button onclick="displayText()">응원하기</button>
+
+    <p id="outputArea"></p>
+
+    <script>
+      function displayText() {
+        const input = document.getElementById("userInput").value;
+        const output = document.getElementById("outputArea");
+        output.textContent = input;
+      }
+    </script>
   </body>
 </html>
+
