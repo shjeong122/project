@@ -1,0 +1,118 @@
+html {
+    background-color: #202124;
+}
+body {
+    display: contents;
+}
+i {
+    margin-right: 10px;
+    color: #BFBFBF;
+}
+.navbar-1 {
+    float: left;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    font-size: 13px;
+}
+.navbar-2 {
+    float: right;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    font-size: 13px;
+}
+.nav-item {
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+}
+.nav-item:hover {
+    text-decoration: underline;
+}
+.main {
+    margin-top: 230px;
+    text-align: center;
+}
+.logo {
+    background-color: #202124;
+    width: 350px;
+}
+.input-area {
+    margin-top: 20px;
+}
+.input-box {
+    width: 474px;
+    height: 50px;
+    border-radius: 26px;
+    border: 0px;
+    background: #4D5156;
+    padding-left: 50px;
+    padding-right: 120px;
+}
+.search-icon {
+    position: relative;
+    left: 50px;
+    height: 16px;
+}
+.icon {
+    position: relative;
+    right: 100px;
+    height: 24px;
+}
+.button-area {
+    padding-top: 18px;
+}
+.button-style {
+    background-color: #303134;
+    border: 1px solid #303134;
+    color: #e8eaed;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+.button-style:hover {
+    box-shadow: 0 1px 3px rgba(23, 23, 23, 0.24);
+    background-color: #303134;
+    border: 1px solid #5f6368;
+    color: #e8eaed;
+}
+.footer {
+    position: absolute;
+    bottom: 0px;
+    background-color: #171717;
+    width: 100%;
+    color: white;
+}
+.first-line {
+    padding: 15px 30px;
+    border-bottom: 1px solid #313335;
+    font-size: 15px;
+}
+.second-line {
+    padding: 15px 30px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+.second-line-1 {
+    float: left;
+}
+.second-line-2 {
+    float: right;
+}
+.footer-style {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    align-items: center;
+}
+.footer-style:hover {
+    text-decoration: underline;
+}
