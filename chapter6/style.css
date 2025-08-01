@@ -37,7 +37,9 @@ a:hover {
   padding: 28px 17px;
   font-weight: 700;
 }
-
+.gap {
+    margin: 0 15px 0 15px;
+}
 .headline {
   font-size: 146px;
   line-height: 166px;
