@@ -38,6 +38,9 @@ i {
 }
 .input-area {
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .input-box {
     width: 474px;
@@ -55,6 +58,8 @@ i {
 }
 .icon {
     position: relative;
+    display: flex;
+    align-items: cneter;
     right: 100px;
     height: 24px;
 }
@@ -85,7 +90,9 @@ i {
 }
 .footer {
     position: absolute;
-    bottom: 0px;
+    direction: flex;
+    justify-content: flex-end;
+    bottom: 0;
     background-color: #171717;
     width: 100%;
     color: white;
@@ -94,25 +101,29 @@ i {
     padding: 15px 30px;
     border-bottom: 1px solid #313335;
     font-size: 15px;
-    margin-left: 15px;
 }
 .second-line {
+    float:left
     padding: 15px 30px;
     margin-bottom: 20px;
     font-family: Arial, sans-serif;
     font-size: 15px;
 }
 .second-line-1 {
+    display: flex;
     float: left;
+    padding: 15px 30px;
 }
 .second-line-2 {
+    display: flex;
+    justify-content: space-between;
     float: right;
+    padding: 15px 30px;
 }
 .footer-style {
     text-decoration: none;
     color: white;
-    margin: 20px;
-    align-items: center;
+    margin-right: 15px;
 }
 .footer-style:hover {
     text-decoration: underline;
