@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <i class="r-icon r-icon--Burger" inert="" aria-hidden="true">
+            <svg
+              id="Burger"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5.7 8C5.3134 8 5 8.3134 5 8.7C5 9.0866 5.3134 9.4 5.7 9.4H18.3C18.6866 9.4 19 9.0866 19 8.7C19 8.3134 18.6866 8 18.3 8H5.7Z"
+                fill="currentColor"
+              ></path>
+              <path
+                d="M5.7 14.6C5.3134 14.6 5 14.9134 5 15.3C5 15.6866 5.3134 16 5.7 16H18.3C18.6866 16 19 15.6866 19 15.3C19 14.9134 18.6866 14.6 18.3 14.6H5.7Z"
+                fill="currentColor"
+              ></path>
+            </svg>
+          </i>
+        </button>
+        <div
+          class="offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">DIOR</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+        <a class="navbar-brand" href="#">DIOR</a>
+        <div class="navbar bg-body-tertiary">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-solid fa-user"></i>
+              <i class="fa-solid fa-bag-shopping"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div>
+        <img
+          src="https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Library-Sites-DiorSharedLibrary/default/dw32e32925/images/beauty/0-HOME/BEAUTY/2025/08-AUGUST/A25M158_Forever_S2_M04M_Jisoo_Blush_2400x3000.jpg?sw=1280"
+        />
+
+        <div class="main-title">
+          디올 포에버
+          <h1>블러쉬 소프트 필터</h1>
+          <a href="#">알아보기</a>
+        </div>
+      </div>
+      <div>
+        <img
+          src="https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Library-Sites-DiorSharedLibrary/default/dw6af6e346/images/beauty/0-HOME/BEAUTY/2025/04-APRIL/3700x2000_M016_DIORSHOW25_M02T_Deva_INTER_NEW_L4_F39.jpg?sw=2560"
+        />
+        <div class="main-title">
+          New 디올쇼
+          <h1>새롭게 선보이는 디올쇼 아이 메이크업</h1>
+          <a href="#">알아보기</a>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
